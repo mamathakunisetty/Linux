@@ -9,7 +9,7 @@ echo
 echo "Top 5 Largest Directories in /:"
 du -ah / | sort -rh | head -n 5
 
------
+-------------------------------------------------------
 SERVICE START:
 #!/bin/bash
 # Script to restart a service and check its status
@@ -21,7 +21,7 @@ sudo systemctl restart $service
 
 echo "Checking status of $service:"
 sudo systemctl status $service
-------
+------------------------------------------------------
 USERADD:
 #!/bin/bash
 # Script to add a user
