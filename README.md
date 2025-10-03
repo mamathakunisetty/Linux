@@ -18,6 +18,3 @@ notes/
 ├── common-commands.md
 ├── server-monitoring-tips.md
 
-### 💡 Useful For:
-- Beginners in Linux
-- Anyone exploring support roles or shell scripting
