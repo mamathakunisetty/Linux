@@ -8,3 +8,31 @@ df -h
 echo
 echo "Top 5 Largest Directories in /:"
 du -ah / | sort -rh | head -n 5
+
+-----
+SERVICE START:
+#!/bin/bash
+# Script to restart a service and check its status
+
+echo "Enter the service name to restart:"
+read service
+
+sudo systemctl restart $service
+
+echo "Checking status of $service:"
+sudo systemctl status $service
+------
+USERADD:
+#!/bin/bash
+# Script to add a user
+
+echo "Enter username:"
+read username
+
+sudo useradd $username
+sudo passwd $username
+
+echo "User $username added successfully."
+
+#added user_add.sh script
+
